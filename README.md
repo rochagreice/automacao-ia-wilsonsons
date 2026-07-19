@@ -176,6 +176,20 @@ Os principais campos enviados são:
 
 ---
 
+# 📷 Imagens do Projeto
+
+## Fluxo da Automação Make
+
+![Fluxo Make](imagens/fluxo-make.png)
+
+## Interface Lovable
+
+![Tela Lovable](imagens/lovable.png)
+
+## Planilha Google Sheets
+
+![Google Sheets](imagens/google-sheets.png)
+
 # 👩‍💻 Desenvolvido por
 
 Greice Lima Rocha
