@@ -61,7 +61,7 @@ Observações.
 Figura 2 – Exemplo de preenchimento da solicitação técnica.
 
 
-⚙ Arquitetura da Solução
+# ⚙ Arquitetura da Solução
 
 Usuário
    |
