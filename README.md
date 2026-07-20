@@ -42,9 +42,12 @@ Registrar os resultados automaticamente em uma planilha.
 
 
 A interface foi desenvolvida utilizando Lovable, permitindo que o usuário informe os dados necessários para análise.
-<img width="647" height="628" alt="image" src="https://github.com/user-attachments/assets/1300584b-e773-4ead-a3a6-839d41eaae2b" />
+
+![Tela inicial da aplicação](images/lovable-tela.png)
+Figura 1 – Tela principal do sistema desenvolvido no Lovable.
 
 Campos utilizados:
+
 
 Nome;
 Empresa;
@@ -81,9 +84,9 @@ Google Sheets
    ↓
 Resultado da análise técnica
 
+
 ![Fluxo da automação no Make](images/cenario-make.png)
 Figura 3 – Cenário de automação criado no Make.com.
-
 
 🔄 Funcionamento da Automação
 
@@ -107,10 +110,10 @@ Atualizar os registros.
 
 3. Análise utilizando Google Gemini AI
 
-   ![Configuração Gemini AI](images/gemini.png)
-Figura 4 – Processamento dos dados utilizando Inteligência Artificial.
+ ![Configuração Gemini AI](images/gemini.png)
+Figura 4 – Processamento dos dados utilizando Inteligência Artificial. 
 
-O Gemini realiza uma análise automática dos dados técnicos enviados.
+Gemini realiza uma análise automática dos dados técnicos enviados.
 
 A IA pode:
 
