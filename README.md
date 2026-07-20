@@ -43,7 +43,7 @@ Registrar os resultados automaticamente em uma planilha.
 
 A interface foi desenvolvida utilizando Lovable, permitindo que o usuário informe os dados necessários para análise.
 
-![Tela inicial da aplicação](images/lovable-tela.png)
+![Tela inicial da aplicação](imagens/lovable-tela.png)
 Figura 1 – Tela principal do sistema desenvolvido no Lovable.
 
 Campos utilizados:
@@ -59,7 +59,7 @@ Descrição técnica;
 Prioridade;
 Observações.
 
-![Formulário preenchido](images/formulario.png)
+![Formulário preenchido](imagens/formulario.png)
 Figura 2 – Exemplo de preenchimento da solicitação técnica.
 
 ⚙ Arquitetura da Solução
@@ -85,7 +85,7 @@ Google Sheets
 Resultado da análise técnica
 
 
-![Fluxo da automação no Make](images/cenario-make.png)
+![Fluxo da automação no Make](imagens/cenario-make.png)
 Figura 3 – Cenário de automação criado no Make.com.
 
 🔄 Funcionamento da Automação
@@ -110,7 +110,7 @@ Atualizar os registros.
 
 3. Análise utilizando Google Gemini AI
 
- ![Configuração Gemini AI](images/gemini.png)
+ ![Configuração Gemini AI](imagens/gemini.png)
 Figura 4 – Processamento dos dados utilizando Inteligência Artificial. 
 
 Gemini realiza uma análise automática dos dados técnicos enviados.
@@ -148,7 +148,7 @@ Prioridade	Nível de urgência
 Análise IA	Resultado gerado pela IA
 Recomendação	Sugestão técnica
 
-![Resultado no Google Sheets](images/google-sheets.png)
+![Resultado no Google Sheets](imagens/google-sheets.png)
 Figura 5 – Dados analisados e registrados automaticamente na planilha.
 
 
