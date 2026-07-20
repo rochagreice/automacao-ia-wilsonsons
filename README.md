@@ -1,4 +1,4 @@
-                        🚢 Sistema Inteligente de Análise de Dados Técnicos Navais com IA
+                     #   🚢 Sistema Inteligente de Análise de Dados Técnicos Navais com IA
 
 
 📖 Visão Geral
@@ -38,7 +38,7 @@ Gerar respostas estruturadas;
 Registrar os resultados automaticamente em uma planilha.
 
 
-🖥 Interface da Aplicação
+##🖥 Interface da Aplicação
 
 
 A interface foi desenvolvida utilizando Lovable, permitindo que o usuário informe os dados necessários para análise.
