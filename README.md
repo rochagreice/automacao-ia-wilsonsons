@@ -26,7 +26,7 @@ Maior tempo para identificação de materiais necessários;
 Falta de histórico centralizado das análises realizadas.
 
 
-* ✅ Solução Desenvolvida
+ ✅ Solução Desenvolvida
 
 
 Foi criada uma aplicação web integrada a uma automação inteligente capaz de:
