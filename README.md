@@ -1,4 +1,6 @@
 🚢 Sistema Inteligente de Análise de Dados Técnicos Navais com IA
+
+
 📖 Visão Geral
 
 Este projeto tem como objetivo automatizar a análise de informações técnicas relacionadas a componentes navais utilizando Inteligência Artificial.
