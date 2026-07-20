@@ -10,11 +10,11 @@ A solução foi desenvolvida para reduzir atividades manuais de interpretação 
 
 A aplicação integra Lovable, Make.com, Google Gemini AI e Google Sheets, criando um fluxo automatizado de recebimento, análise e armazenamento das informações.
 
-🎯 Objetivo do Projeto
+# 🎯 Objetivo do Projeto
 
 Automatizar o processo de análise de dados técnicos de peças e componentes navais, auxiliando na identificação de materiais, organização das informações e apoio à tomada de decisão.
 
-❗ Problema Identificado
+# ❗ Problema Identificado
 
 Atualmente, a análise de documentos e informações técnicas pode exigir grande esforço manual da equipe, tornando o processo mais demorado e sujeito a erros.
 
@@ -38,7 +38,7 @@ Gerar respostas estruturadas;
 Registrar os resultados automaticamente em uma planilha.
 
 
-##🖥 Interface da Aplicação
+# 🖥 Interface da Aplicação
 
 
 A interface foi desenvolvida utilizando Lovable, permitindo que o usuário informe os dados necessários para análise.
@@ -87,7 +87,7 @@ Resultado da análise técnica
 ![Fluxo da automação no Make](imagens/cenario-make.png)
 Figura 3 – Cenário de automação criado no Make.com.
 
-🔄 Funcionamento da Automação
+# 🔄 Funcionamento da Automação
 
 
 1. Recebimento dos dados
@@ -133,7 +133,7 @@ Resultado da IA;
 Observações técnicas.
 
 
-📊 Estrutura dos Dados
+# 📊 Estrutura dos Dados
 
 
 Campo	Descrição
@@ -151,7 +151,7 @@ Recomendação	Sugestão técnica
 Figura 5 – Dados analisados e registrados automaticamente na planilha.
 
 
-🛠 Tecnologias Utilizadas
+# 🛠 Tecnologias Utilizadas
 
 
 Tecnologia	Função
@@ -163,7 +163,7 @@ Webhook	Comunicação entre sistemas
 JSON	Organização das respostas
 
 
-🚀 Como Utilizar
+# 🚀 Como Utilizar
 
 
 Acessar o link da aplicação;
@@ -174,7 +174,7 @@ A IA realizará a análise;
 O resultado ficará registrado no Google Sheets.
 
 
-🌟 Benefícios da Solução
+# 🌟 Benefícios da Solução
 
 
 Redução do trabalho manual;
@@ -185,7 +185,7 @@ Aplicação de Inteligência Artificial em processos técnicos;
 Apoio à equipe na tomada de decisão.
 
 
-🔮 Melhorias Futuras
+# 🔮 Melhorias Futuras
 
 
 Leitura automática de desenhos técnicos em PDF;
@@ -195,7 +195,7 @@ Alertas automáticos para equipes responsáveis;
 Dashboard de acompanhamento.
 
 
-👩‍💻 Desenvolvido por
+# 👩‍💻 Desenvolvido por
 
 Greice Lima Rocha
 
