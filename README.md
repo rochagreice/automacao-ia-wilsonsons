@@ -1,104 +1,62 @@
-# Sistema de Análise Automática de Dados Técnicos com IA
+🚢 Sistema Inteligente de Análise de Dados Técnicos Navais com IA
+📖 Visão Geral
 
-## 📌 Descrição do Projeto
+Este projeto tem como objetivo automatizar a análise de informações técnicas relacionadas a componentes navais utilizando Inteligência Artificial.
 
-Este projeto tem como objetivo automatizar a análise de informações técnicas, reduzindo o trabalho manual de interpretação de documentos e desenhos técnicos.
+A solução foi desenvolvida para reduzir atividades manuais de interpretação de dados técnicos, permitindo que informações enviadas pelo usuário sejam processadas automaticamente, analisadas por IA e organizadas para consulta da equipe responsável.
 
-A solução utiliza Inteligência Artificial para receber dados técnicos, analisar as informações enviadas e gerar uma resposta estruturada com os materiais identificados, facilitando a conferência e tomada de decisão da equipe.
+A aplicação integra Lovable, Make.com, Google Gemini AI e Google Sheets, criando um fluxo automatizado de recebimento, análise e armazenamento das informações.
 
----
+🎯 Objetivo do Projeto
 
-# 🎯 Problema Identificado
+Automatizar o processo de análise de dados técnicos de peças e componentes navais, auxiliando na identificação de materiais, organização das informações e apoio à tomada de decisão.
 
-Atualmente, a análise de documentos técnicos é realizada manualmente, demandando tempo da equipe e aumentando a possibilidade de erros na identificação de materiais necessários.
+❗ Problema Identificado
 
-O processo manual dificulta:
+Atualmente, a análise de documentos e informações técnicas pode exigir grande esforço manual da equipe, tornando o processo mais demorado e sujeito a erros.
 
-* Conferência rápida das informações;
-* Organização dos dados;
-* Identificação de possíveis faltas de materiais;
-* Padronização das análises.
+Principais dificuldades:
 
----
+Análise manual de informações técnicas;
+Dificuldade em organizar os dados recebidos;
+Maior tempo para identificação de materiais necessários;
+Falta de histórico centralizado das análises realizadas.
+✅ Solução Desenvolvida
 
-# 💡 Solução Desenvolvida
+Foi criada uma aplicação web integrada a uma automação inteligente capaz de:
 
-Foi criada uma automação utilizando:
+Receber informações técnicas através de formulário;
+Enviar os dados automaticamente para processamento;
+Utilizar Inteligência Artificial para análise;
+Gerar respostas estruturadas;
+Registrar os resultados automaticamente em uma planilha.
+🖥 Interface da Aplicação
 
-* **Lovable** → Interface para entrada dos dados;
-* **Make.com** → Orquestração e automação do processo;
-* **Google Gemini AI** → Análise inteligente das informações técnicas;
-* **Google Sheets** → Armazenamento e organização dos resultados.
+A interface foi desenvolvida utilizando Lovable, permitindo que o usuário informe os dados necessários para análise.
+<img width="647" height="628" alt="image" src="https://github.com/user-attachments/assets/1300584b-e773-4ead-a3a6-839d41eaae2b" />
 
-A aplicação recebe os dados enviados pelo usuário, encaminha para a IA realizar a análise e registra automaticamente o resultado em uma planilha.
+Campos utilizados:
 
----
+Nome;
+Empresa;
+E-mail;
+Telefone;
+Nome da peça/material;
+Código;
+Descrição técnica;
+Prioridade;
+Observações.
 
-# 🔄 Fluxo da Automação
+![Formulário preenchido](images/formulario.png)
 
-## 1. Entrada de dados
+Figura 2 – Exemplo de preenchimento da solicitação técnica.
 
-O usuário preenche um formulário contendo informações como:
+⚙ Arquitetura da Solução
 
-* Nome;
-* Empresa;
-* E-mail;
-* Telefone;
-* Peça/material;
-* Código;
-* Descrição técnica;
-* Prioridade;
-* Observações;
-* Arquivo técnico (quando disponível).
-
----
-
-## 2. Webhook Make.com
-
-O formulário envia os dados para um Webhook do Make.
-
-Responsável por:
-
-* Receber as informações;
-* Iniciar o cenário de automação;
-* Encaminhar os dados para processamento.
-
----
-
-## 3. Análise com Google Gemini AI
-
-O Gemini recebe os dados técnicos e realiza uma análise automática.
-
-A IA é utilizada para:
-
-* Interpretar informações técnicas;
-* Organizar os dados;
-* Identificar materiais;
-* Classificar prioridade;
-* Gerar uma resposta estruturada.
-
----
-
-## 4. Registro no Google Sheets
-
-Após a análise, o resultado é salvo automaticamente em uma planilha.
-
-A planilha funciona como banco de dados contendo:
-
-* Dados do solicitante;
-* Informações técnicas;
-* Resultado da análise da IA;
-* Observações.
-
----
-
-# 🏗️ Arquitetura da Solução
-
-```
 Usuário
    |
    ↓
-Lovable (Formulário)
+Lovable (Formulário Web)
    |
    ↓
 Webhook Make.com
@@ -107,90 +65,107 @@ Webhook Make.com
 Google Gemini AI
    |
    ↓
+Tratamento da resposta JSON
+   |
+   ↓
 Google Sheets
    |
    ↓
-Resultado da análise
-```
+Resultado da análise técnica
 
----
+![Fluxo da automação no Make](images/cenario-make.png)
 
-# 🛠️ Tecnologias Utilizadas
+Figura 3 – Cenário de automação criado no Make.com.
 
-| Tecnologia       | Função                     |
-| ---------------- | -------------------------- |
-| Lovable          | Criação da interface web   |
-| Make.com         | Automação do fluxo         |
-| Google Gemini AI | Processamento inteligente  |
-| Google Sheets    | Armazenamento dos dados    |
-| Webhooks         | Comunicação entre sistemas |
+🔄 Funcionamento da Automação
+1. Recebimento dos dados
 
----
+O usuário preenche o formulário desenvolvido no Lovable.
 
-# 📋 Campos Processados
+As informações são enviadas para um Webhook criado no Make.com.
 
-Os principais campos enviados são:
+2. Processamento no Make.com
 
-* Nome
-* Empresa
-* E-mail
-* Telefone
-* Peça
-* Código
-* Descrição
-* Prioridade
-* Observações
-* Arquivo técnico
+O Make.com é responsável por controlar todo o fluxo da automação.
 
----
+Funções:
 
-# 🚀 Como Executar o Projeto
+Receber os dados;
+Enviar informações para a Inteligência Artificial;
+Organizar o retorno;
+Atualizar os registros.
 
-1. Acessar a aplicação criada no Lovable.
-2. Preencher o formulário com os dados técnicos.
-3. Enviar a solicitação.
-4. O Make receberá os dados automaticamente.
-5. O Gemini realizará a análise.
-6. O resultado será registrado no Google Sheets.
+3. Análise utilizando Google Gemini AI
 
----
+   ![Configuração Gemini AI](images/gemini.png)
 
-# ✅ Benefícios da Solução
+Figura 4 – Processamento dos dados utilizando Inteligência Artificial.
 
-* Redução do trabalho manual;
-* Maior velocidade na análise;
-* Organização automática das informações;
-* Uso de Inteligência Artificial no processo;
-* Histórico centralizado dos dados;
-* Apoio à tomada de decisão.
+O Gemini realiza uma análise automática dos dados técnicos enviados.
 
----
+A IA pode:
 
-# 📌 Possíveis Melhorias Futuras
+Interpretar a descrição técnica;
+Identificar possíveis materiais;
+Organizar informações;
+Classificar prioridade;
+Gerar recomendações.
+4. Registro dos resultados
 
-* Leitura automática de arquivos PDF técnicos;
-* Comparação entre desenho técnico e lista de materiais;
-* Envio de notificações para equipes responsáveis;
-* Dashboard de acompanhamento;
-* Integração com sistemas corporativos.
+Após a análise, os dados são enviados para o Google Sheets.
 
----
+A planilha mantém:
 
-# 📷 Imagens do Projeto
+Dados do solicitante;
+Informações da peça;
+Resultado da IA;
+Observações técnicas.
 
-## Fluxo da Automação Make
+📊 Estrutura dos Dados
 
-![Fluxo Make](imagens/fluxo-make.png)
+Campo	Descrição
+Nome	Usuário solicitante
+Empresa	Empresa responsável
+E-mail	Contato
+Peça	Nome do componente
+Código	Identificação técnica
+Descrição	Informações enviadas
+Prioridade	Nível de urgência
+Análise IA	Resultado gerado pela IA
+Recomendação	Sugestão técnica
 
-## Interface Lovable
+![Resultado no Google Sheets](images/google-sheets.png)
 
-![Tela Lovable](imagens/lovable.png)
-
-## Planilha Google Sheets
-
-![Google Sheets](imagens/google-sheets.png)
-
-# 👩‍💻 Desenvolvido por
+Figura 5 – Dados analisados e registrados automaticamente na planilha.
+🛠 Tecnologias Utilizadas
+Tecnologia	Função
+Lovable	Desenvolvimento da interface web
+Make.com	Automação do processo
+Google Gemini AI	Análise inteligente dos dados
+Google Sheets	Armazenamento dos resultados
+Webhook	Comunicação entre sistemas
+JSON	Organização das respostas
+🚀 Como Utilizar
+Acessar o link da aplicação;
+Preencher o formulário com as informações técnicas;
+Enviar a solicitação;
+A automação será executada automaticamente;
+A IA realizará a análise;
+O resultado ficará registrado no Google Sheets.
+🌟 Benefícios da Solução
+Redução do trabalho manual;
+Maior velocidade na análise;
+Padronização das informações;
+Histórico centralizado;
+Aplicação de Inteligência Artificial em processos técnicos;
+Apoio à equipe na tomada de decisão.
+🔮 Melhorias Futuras
+Leitura automática de desenhos técnicos em PDF;
+Extração automática de lista de materiais (BOM);
+Comparação entre desenho técnico e Job Book;
+Alertas automáticos para equipes responsáveis;
+Dashboard de acompanhamento.
+👩‍💻 Desenvolvido por
 
 Greice Lima Rocha
 
