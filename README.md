@@ -60,6 +60,9 @@ Observações.
 ![Formulário preenchido](imagens/formulario.png)
 Figura 2 – Exemplo de preenchimento da solicitação técnica.
 
+**Link do Formulário no Lovable.**
+
+https://ship-part-analyzer.lovable.app
 
 # ⚙ Arquitetura da Solução
 
