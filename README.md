@@ -42,13 +42,11 @@ Registrar os resultados automaticamente em uma planilha.
 
 
 A interface foi desenvolvida utilizando Lovable, permitindo que o usuário informe os dados necessários para análise.
-
 ![Tela inicial da aplicação](imagens/lovable-tela.png)
 Figura 1 – Tela principal do sistema desenvolvido no Lovable.
 
+
 Campos utilizados:
-
-
 Nome;
 Empresa;
 E-mail;
@@ -61,6 +59,7 @@ Observações.
 
 ![Formulário preenchido](imagens/formulario.png)
 Figura 2 – Exemplo de preenchimento da solicitação técnica.
+
 
 ⚙ Arquitetura da Solução
 
