@@ -18,7 +18,7 @@ Automatizar o processo de análise de dados técnicos de peças e componentes na
 
 Atualmente, a análise de documentos e informações técnicas pode exigir grande esforço manual da equipe, tornando o processo mais demorado e sujeito a erros.
 
-Principais dificuldades:
+**Principais dificuldades:**
 
 Análise manual de informações técnicas;
 Dificuldade em organizar os dados recebidos;
@@ -26,7 +26,7 @@ Maior tempo para identificação de materiais necessários;
 Falta de histórico centralizado das análises realizadas.
 
 
- ✅ Solução Desenvolvida
+ ✅  Solução Desenvolvida 
 
 
 Foi criada uma aplicação web integrada a uma automação inteligente capaz de:
@@ -46,7 +46,7 @@ A interface foi desenvolvida utilizando Lovable, permitindo que o usuário infor
 Figura 1 – Tela principal do sistema desenvolvido no Lovable.
 
 
-Campos utilizados:
+**Campos utilizados:**
 Nome;
 Empresa;
 E-mail;
@@ -90,42 +90,43 @@ Figura 3 – Cenário de automação criado no Make.com.
 # 🔄 Funcionamento da Automação
 
 
-1. Recebimento dos dados
+**1. Recebimento dos dados**
 
 O usuário preenche o formulário desenvolvido no Lovable.
 
 As informações são enviadas para um Webhook criado no Make.com.
 
-2. Processamento no Make.com
+**2. Processamento no Make.com**
 
 O Make.com é responsável por controlar todo o fluxo da automação.
 
-Funções:
+**Funções:**
 
 Receber os dados;
 Enviar informações para a Inteligência Artificial;
 Organizar o retorno;
 Atualizar os registros.
 
-3. Análise utilizando Google Gemini AI
+**3. Análise utilizando Google Gemini AI**
 
  ![Configuração Gemini AI](imagens/gemini.png)
     Figura 4 – Processamento dos dados utilizando Inteligência Artificial. 
 
 Gemini realiza uma análise automática dos dados técnicos enviados.
 
-A IA pode:
+**A IA pode:**
 
 Interpretar a descrição técnica;
 Identificar possíveis materiais;
 Organizar informações;
 Classificar prioridade;
 Gerar recomendações.
-4. Registro dos resultados
+
+**4. Registro dos resultados**
 
 Após a análise, os dados são enviados para o Google Sheets.
 
-A planilha mantém:
+**A planilha mantém:**
 
 Dados do solicitante;
 Informações da peça;
@@ -136,7 +137,8 @@ Observações técnicas.
 # 📊 Estrutura dos Dados
 
 
-Campo	Descrição
+**Campo	Descrição**
+
 Nome	Usuário solicitante
 Empresa	Empresa responsável
 E-mail	Contato
@@ -154,7 +156,8 @@ Figura 5 – Dados analisados e registrados automaticamente na planilha.
 # 🛠 Tecnologias Utilizadas
 
 
-Tecnologia	Função
+**Tecnologia	Função**
+
 Lovable	Desenvolvimento da interface web
 Make.com	Automação do processo
 Google Gemini AI	Análise inteligente dos dados
