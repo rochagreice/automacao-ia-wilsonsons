@@ -111,7 +111,7 @@ Atualizar os registros.
 3. Análise utilizando Google Gemini AI
 
  ![Configuração Gemini AI](imagens/gemini.png)
-Figura 4 – Processamento dos dados utilizando Inteligência Artificial. 
+    Figura 4 – Processamento dos dados utilizando Inteligência Artificial. 
 
 Gemini realiza uma análise automática dos dados técnicos enviados.
 
